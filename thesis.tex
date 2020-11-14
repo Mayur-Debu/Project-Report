@@ -1,0 +1,127 @@
+\documentclass{SSBT-BE}
+\usepackage{makeidx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{%
+  babel,
+  algorithmic,
+  algorithm,
+  caption
+}
+
+\usepackage{url}
+\usepackage[breaklinks=true]{hyperref}
+
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{Abbreviations}
+\makenomenclature
+\usepackage{imakeidx}
+\makeindex
+
+\begin{document}
+
+\title{House Price Prediction Using Machine Learning}
+\author{Janhavi Kailas Chaudhari \\ Anup Sanjay Patil \\ Mayur Manohar Patil \\ Bhushan Ramkrushna Upasani \\ Priyakumari Kailassing Rajput }
+
+\dept{Department of Computer Engineering}
+\supervisor{Miss. Priti Sharma}
+\submitdate{2020 - 2021}
+\degree{Bachelor of Engineering}
+\specialization{Computer Engineering}
+\type{Project}
+%\type{Seminar}
+\hod{Prof. Dr. Girish K. Patnaik}
+
+\beforepreface
+
+
+\prefacesection{Acknowledgements}
+%\input{acknowledgement}
+We take the opportunity to express our gratitude to all those who have rendered co-operation
+and guidance that supported us while analyzing and developing the design of this project
+right from beginning up till now.
+First of all we would like to express our deepest appreciation toward Dr. Girish K. Patnaik
+(H.O.D. of Computer Engineering) and Miss. Priti Sharma (Guide) whose valuable guidance
+supported us in completing the analysis and designing of our final year project. We would also like to
+thank and express our respect and gratitude to Dr. K. S. Wani (Principal) for providing
+us this opportunity.
+Last but not least we are profoundly grateful and obliged to Miss. Priti Sharma, for her guidance, motivation and continuous encouragement throughout to see that
+whole process is right on its target since its commencement.
+
+
+\acknowledgeauthor
+
+
+
+% Use following command at the command prompt to display the Abbreviations
+% makeindex thesis.nlo -s nomencl.ist -o thesis.nls
+\newpage
+% \addcontentsline{toc}{chapter}{List of Abbreviations}
+% \printnomenclature
+
+
+\newpage
+\afterpreface
+\listoftables
+\listoffigures
+%\input{glossary}
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{plain}
+
+
+\prefacesection{Abstract}
+Machine learning plays a major role from past years in image detection, spam reorganization, normal speech command, product recommendation and medical diagnosis.
+Present machine learning algorithm helps in enhancing security alerts, ensuring public safety and improve medical enhancements. Machine learning system also provides
+better customer service and safer automobile systems.\\
+Designing an effective machine learning model for prediction of regression and classification problem is a tedious endeavor. Significant time and expertise are needed to
+customize the model for a specific problem. A significant way to reduce the complicated design is by using Automated Machine Learning (AML) that can intelligently
+optimize the best pipeline suitable for a problem or dataset. This study utilizes machine learning algorithms as a research method that develops housing price prediction
+models. In that point a housing cost prediction model to support a house vendor or a
+real estate agent for better information based on the valuation of house is recommended.
+
+% \chapter{Introduction}
+% \input{./introduction/introduction}
+
+% \chapter{LaTex Basic Blocks}
+% \input{./trust/gkp}
+
+% %\chapter{Key Management}
+% \label{CH-Key Management}
+% %\input{./key/gkp}
+
+% \chapter{Conclusion and Future Work}
+% %\input{conclusion}
+% \appendix
+% %\input{appendix}
+
+% \chapter{Disasters in India}
+% %\input{./appendix_disaster}
+
+
+
+
+
+%......Main Project report starts form here......
+
+\chapter{Introduction}
+\input{Introduction/introduction}
+
+\chapter{Project Planning and Management}
+\input{Project Planning and Management/Project_Planning_and_Management}
+
+\chapter{Analysis}
+\input{Analysis/analysis}
+
+\chapter{System Design}
+\input{System Design/system_design}
+
+\chapter{Conclusion and Future Work}
+\input{Conclusion and Future Work/conclusion}
+
+
+
+\printindex
+
+\end{document}

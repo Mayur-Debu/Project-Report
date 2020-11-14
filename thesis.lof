@@ -1,0 +1,19 @@
+\select@language {USenglish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Trust based routing (a) Route Request (RREQ) and Route Reply (RREP) (b) Route Reply (RREP), Trust Request (TREQ) and Trust Reply (TREP) (c) Route Reply (RREP) and Trust Evaluate (TEVAL) (d) Trust Evaluate Acknowledgment (TEVAL\_ACK) and Route Reply (RREP)\relax }}{10}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { }}}{10}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { }}}{10}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces { }}}{10}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces { }}}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Performance Comparison Packet Delivery Ratio\relax }}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Performance Comparison (a) Packet Delivery Ratio (b) Control Traffic Overhead\relax }}{12}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{12}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{12}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Performance Comparison in the Presence of Malicious Nodes (a) Packet Delivery Ratio (b) Control Traffic Overhead (c) Packets Dropped (d) Path Rediscover Time\relax }}{13}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{13}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{13}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{13}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{13}{figure.caption.17}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

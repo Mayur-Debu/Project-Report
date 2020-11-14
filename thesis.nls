@@ -1,0 +1,10 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{AIMD}]\begingroup Additive Increment and Multiplicative Decrement\nomeqref {1}
+		\nompageref{7}
+  \item [{MANET}]\begingroup Mobile Ad-hoc Network\nomeqref {0}
+		\nompageref{2--5}
+
+\end{thenomenclature}

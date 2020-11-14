@@ -1,0 +1,79 @@
+
+\documentclass[makeidx]{MNNIT}
+\usepackage{makeidx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\usepackage{url}
+
+
+\usepackage[breaklinks=true]{hyperref}
+
+
+
+\makeindex
+
+\begin{document}
+\title{Trustworthy MANET for Secure Communication}
+\author{Girish Kumar Patnaik}
+
+\dept{Department of Computer Engineering}
+\supervisor{G. K. Patnaik}
+\submitdate{2010 - 2011}
+\degree{Bachelor of Engineering}
+\specialization{Computer Engineering}
+\college{SSVPS'\lowercase{s} B. S. Deore College of Engineering, Dhule}
+\type{Project}
+\certisign{Guide}{G. K. Patnaik)
+\beforepreface
+%\prefacesection{Preface}
+
+\prefacesection{Acknowledgement}
+%\input{acknowledgement}
+\prefacesection{Abrevations}
+\newpage
+\afterpreface
+\listoftables
+\listoffigures
+%\input{glossary}
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{plain}
+%\prefacesection{Abstract}
+\abstract{However, MANETs offer a convenient infrastructure-less communication over a shared wireless channel. These, being cost-effective and quick to install, find many applications such as military tactical operations, emergencies and law enforcement, rescue missions, and many other applications like round table conferences and classroom discussions etc. In brief, MANET characteristics are as enumerated below.}
+
+\chapter{Introduction}
+\input{./introduction/introduction}
+\chapter{Background and Related Work}
+%\input{./relatedwork/relatedwork}
+
+\chapter{MANET Architecture}
+\label{CH-MANET for Post-Disaster Rescue Operations}
+%\input{./manet/gkp}
+
+\chapter{Trust Management}
+\label{CH-Trust Management}
+%\input{./trust/gkp}
+
+\chapter{Key Management}
+\label{CH-Key Management}
+%\input{./key/gkp}
+
+\chapter{Conclusion and Future Work}
+%\input{conclusion}
+\appendix
+%\input{appendix}
+
+\chapter{Disasters in India}
+%\input{./appendix_disaster}
+
+%\bibliographystyle{acm}
+\bibliographystyle{IEEEtran}
+\bibliography{thesis}
+
+\newpage
+\addcontentsline{toc}{chapter}{Index}
+\printindex
+
+
+\end{document}

@@ -1,0 +1,97 @@
+\documentclass{SSBT-BE}
+\usepackage{makeidx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{%
+  babel,
+  algorithmic,
+  algorithm,
+  caption
+}
+
+\usepackage{url}
+\usepackage[breaklinks=true]{hyperref}
+
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{Abbreviations}
+\makenomenclature
+
+\makeindex
+
+\begin{document}
+
+\title{MANET for Communication}
+\author{Girish Kumar Patnaik \\ Assad Saasd \\ Zxczxc Zxczxc Zxczxc \\ Qweqwe Eqweqw }
+
+\dept{Department of Computer Engineering}
+\supervisor{Prof. Dr. Girish K. Patnaik}
+\submitdate{December 2014}
+\degree{Bachelor of Engineering}
+\specialization{Computer Engineering}
+\type{Project}
+%\type{Seminar}
+\hod{Prof. Dr. Girish K. Patnaik}
+
+\beforepreface
+
+
+\prefacesection{Acknowledgements}
+%\input{acknowledgement}
+Hello how are you? vvvvvvvvvv vvvvvvvvvvvvvvv vvvvvvvvvv vvvvvvvvvvv vvvvvvv vvvvvvvvv vvvvvvvvvvvvvvvvvv
+\acknowledgeauthor
+
+
+
+% Use following command at the command prompt to display the Abbreviations
+% makeindex thesis.nlo -s nomencl.ist -o thesis.nls
+\newpage
+%\addcontentsline{toc}{chapter}{List of Abbreviations}
+\printnomenclature
+
+
+\newpage
+\afterpreface
+\listoftables
+\listoffigures
+%\input{glossary}
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{plain}
+
+
+\prefacesection{Abstract}
+However, MANETs offer a convenient infrastructure-less communication over a shared wireless channel. These, being cost-effective and quick to install, find many applications such as military tactical operations, emergencies and law enforcement, rescue missions, and many other applications like round table conferences and classroom discussions etc. In brief, MANET characteristics are as enumerated below.
+
+However, MANETs offer a convenient infrastructure-less communication over a shared wireless channel. These, being cost-effective and quick to install, find many applications such as military tactical operations, emergencies and law enforcement, rescue missions, and many other applications like round table conferences and classroom discussions etc. In brief, MANET characteristics are as enumerated below.
+
+\chapter{Introduction}
+\input{./introduction/introduction}
+
+\chapter{LaTex Basic Blocks}
+\input{./trust/gkp}
+
+%\chapter{Key Management}
+\label{CH-Key Management}
+%\input{./key/gkp}
+
+\chapter{Conclusion and Future Work}
+%\input{conclusion}
+\appendix
+%\input{appendix}
+
+\chapter{Disasters in India}
+%\input{./appendix_disaster}
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{thesis}
+
+%Use following command at the command prompt to display the Index
+% makeindex thesis
+\newpage
+\addcontentsline{toc}{chapter}{Index}
+\printindex
+
+
+\end{document}
